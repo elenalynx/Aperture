@@ -28,6 +28,11 @@
     margin: auto;
 }
 
+.container_1168 {
+    max-width: 1168px;
+    margin: auto;
+}
+
 .container_600 {
     max-width: 600px;
     margin: auto;
@@ -35,11 +40,19 @@
 
 .d_flex {
     display: flex;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+}
+
+.justify-between {
     justify-content: space-between;
+}
+
+.align-center {
     align-items: center;
 }
 
-.content_centre {
+.text-center {
     text-align: center;
 }
 
@@ -244,6 +257,43 @@ CLIENTS
 
 .client_section a {
     text-decoration: none;
+}
+
+.client_section .clients {
+}
+
+.client_section .clients.owl-carousel .icon {
+    max-width: 128px;
+    margin: auto;
+
+}
+
+.client_section .clients.owl-carousel .icon img {
+    display: block;
+    width: 100%;
+}
+
+.client_section .owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.client_section .owl-dots .owl-dot span {
+    background: #869791;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.client_section .owl-dots .owl-dot.active span {
+    background: #FFFFFF;
+    width: 12px;
+    height: 12px;
+    /*display: inline-block;*/
+    /*border-radius: 50%;*/
+    /*margin: 10px;*/
 }
 
 /*
